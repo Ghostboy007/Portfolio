@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utkarsh Vinayak - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          UTKARSH VINAYAK
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="Envelope Icon"/>
+            utkarshvinayak7@gmail.com
+          </div>
+          <div style="clear:both;"></div>
+          <div class="contact_info">
+            <img src="html_finalprojimages/phone.png" alt="Phone Icon"/>
+            +91 9137495479
+          </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#education">Education</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#achievements">Achievements</a>
+          <a class="topmenu" href="#certifications">Certifications</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="html_finalprojimages/Resume.jpg" class="profile_image" alt="Profile Image"/>
+      </div>
+      <div>
+        <h1 style="font-size: 40px; color: #7600bc;">
+          Hi, I'm UTKARSH! <img src="html_finalprojimages/waving_hand.gif" width="60px" alt="Waving Hand"/>
+        </h1>
+        <p style="font-size: 28px; color:rgb(55, 55, 55);">
+          I am a full stack developer with a strong foundation in computer science and a passion for solving complex problems. I am currently pursuing a Bachelor's degree in Computer Science Engineering at Chandigarh University.
+        </p>
+      </div>
+    </section>
+              
+    <!-- Education -->
+    <section id="education" class="container" >
+      <h2 style="font-size: 28px; color: #7600bc;">Education</h2>
+      <ul style="font-size: 18px;">
+        <li><strong>Chandigarh University, Mohali</strong> - Bachelor of Engineering in Computer Science Engineering (CGPA: 8.21) <span>August 2021 - July 2025 (expected)</span></li>
+        <li><strong>Narayana e-Techno School, Borivali, Mumbai</strong> - CBSE Class X (Percentage: 92.4%) <span>2019</span></li>
+        <li><strong>Narayana Junior College, Andheri, Mumbai</strong> - HSC Class XII (Percentage: 94.1%) <span>2021</span></li>
+      </ul>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2 style="font-size: 28px; color: #7600bc;">Technical Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        
+
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png" alt="HTML Logo"/>
+          <h6>HTML</h6>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/css3.png" alt="CSS Logo"/>
+          <h6>CSS</h6>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg" alt="JavaScript Logo"/>
+          <h6>JavaScript</h6>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/react.png" alt="React Logo"/>
+          <h6>React.js</h6>
+        </div>
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2 style="font-size: 28px; color: #7600bc;">Projects</h2>
+      <div style="clear:both;"></div>
+
+      <div id="projects-container" class="projects-container">
+        <!-- Project details -->
+        <div class="project-card">
+          <h3>Distributed Learning Management System</h3>
+          <ul>
+            <li>Distributed learning platform for collaborative learning.</li>
+            <li>Microservices architecture with Apache Kafka for real-time data streaming.</li>
+            <li>Machine learning-based personalized content recommendations.</li>
+            <li>OAuth 2.0 for user authentication, Docker for containerization, Kubernetes for orchestration.</li>
+            <li>Distributed database like Cassandra for data storage.</li>
+          </ul>
+        </div>
+        <hr>
+        <div class="project-card">
+          <h3>Wild Box</h3>
+          <ul>
+            <li>A full-stack website for Video Streaming.</li>
+            <li>Recommends movies based on the real-time mood of the user through emoticons.</li>
+            <li>Used MongoDB for database management.</li>
+            <li>Users can make their payment using the integrated gateway of PayPal.</li>
+          </ul>
+        </div>
+        <hr>
+        <div class="project-card">
+          <h3>Career Navigation Website</h3>
+          <ul>
+            <li>A full-stack website that helps a user decide their career.</li>
+            <li>Displays the latest information on colleges and universities and links to their homepages.</li>
+            <li>Used Machine Learning to decide careers of users by asking a quiz.</li>
+            <li>Supports User Authentication along with Admin Authorization.</li>
+          </ul>
+        </div>
+        <hr>
+        <div class="project-card">
+          <h3>J.P. Morgan Software Engineering Virtual Experience</h3>
+          <ul>
+            <li>Set up a local dev environment by downloading necessary files, tools, and dependencies.</li>
+            <li>Fixed broken files in the repository to make the web application output correctly.</li>
+            <li>Used JPMorgan Chase’s open-source library called Perspective to generate a live graph that displays a data feed for traders.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+<!-- Achievements and Certifications -->
+<section id="achievements" style="display: flex; flex-direction: column;">
+  <div class="achievements" style="margin-bottom: 20px;">
+    <h2 style="font-size: 28px; color: #7600bc;">Achievements</h2>
+    <ul style="font-size: 18px; margin-left: 30px; list-style-position: outside;">
+      <li>Top performer in NPTEL courses: Probability and Statistics (2022), Internet of Things (2023).</li>
+      <li>Participated in Smart India Hackathon (2023).</li>
+      <li>First position in Innovation event (Inno Spark) organized by Chandigarh University (2023).</li>
+    </ul>
+  </div>
+</section>
+  <section id="certifications" style="display: flex; flex-direction: column;">
+  <div class="certifications">
+    <h2 style="font-size: 28px; color: #7600bc;">Certifications</h2>
+    <ul style="font-size: 18px; margin-left: 230px; margin-top: 5px; list-style-position: outside;">
+      <li>Responsive Web Design in Adobe XD (June 2023).</li>
+      <li>Data Visualization in R (July 2023).</li>
+      <li>Google Cloud Fundamentals: Core Infrastructure (August 2023).</li>
+      <li>Developing AI Applications with Python and Flask (February 2024).</li>
+      <li>Blockchain Scalability and its Foundations in Distributed Systems (March 2024).</li>
+    </ul>
+  </div>
+</section>
+
+
+    <!-- Recommendations -->
+    <section id="recommendations" class="container">
+      <h2 style="font-size: 28px; color: #7600bc;">Recommendations</h2>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Utkarsh is a highly skilled developer who consistently delivers high-quality work. His ability to solve complex problems is truly impressive.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Utkarsh has been a pleasure. He is a proactive team player and always ready to take on new challenges with enthusiasm.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Utkarsh's attention to detail and dedication to his craft make him a valuable asset to any team. His code is always clean and well-documented.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!-- Added the SVG code for the home icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg" alt="Checkmark"/>
+      <h3>Thank you for your recommendation!</h3> <!-- Added confirmation message -->
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+
+  </body>
+</html>
